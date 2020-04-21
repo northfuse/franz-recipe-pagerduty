@@ -1,0 +1,15 @@
+{
+  "id": "pagerduty",
+  "name": "pagerduty",
+  "version": "0.0.1",
+  "description": "PagerDuty",
+  "main": "index.js",
+  "author": "Tyler Southwick <tyler@northfuse.io>",
+  "license": "MIT",
+  "repository": "https://github.com/northfuse/recipe-pagerduty",
+  "config": {
+    "serviceURL": "https://{teamId}.pagerduty.com/",
+    "hasTeamId": true,
+    "urlInputSuffix": ".pagerduty.com"
+  }
+}
