@@ -20,7 +20,7 @@ module.exports = (Franz) => {
   function getMessages() {
     const counts = calculate();
 
-    Franz.setBadge(counts.yours.triggered);
+    Franz.setBadge(counts.yours.triggered, counts.all.trigered);
   }
 
   Franz.loop(getMessages);
